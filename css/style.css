@@ -9,15 +9,9 @@ body{
 }
 
 
-
 .container{
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.box-row{
-    border: crimson solid;
-    text-align: center;
 }
 
 
@@ -26,9 +20,23 @@ body{
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: dodgerblue;
 }
+
+.green{
+    background-color: green;
+    color: white;
+}
+
+.box{
+    background-color: dodgerblue;
+    padding: 1rem;
+}
+
 
 [class*="col-"] {
     background-color:dodgerblue;
     color: white;
+    text-align: center;
+    border: white solid;
 }
